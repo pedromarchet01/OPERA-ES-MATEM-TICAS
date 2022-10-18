@@ -116,15 +116,15 @@ function clicou6() {
   if (valor1 != 0 && valor2 == 0) {
   
   resultado = document.getElementById('saida6');
-  resultado.innerHTML = `<p>A raiz quadrada é <mark><strong>${cbrt}</strong></mark></p>`;
+  resultado.innerHTML = `<p>A raiz cúbica é <mark><strong>${cbrt}</strong></mark></p>`;
 
   }else if (valor1 == 0 && valor2 != 0){
     resultado = document.getElementById('saida6');
-    resultado.innerHTML = `<p>A raiz quadrada é <mark><strong>${cbrt2}</strong></mark></p>`;
+    resultado.innerHTML = `<p>A raiz cúbica é <mark><strong>${cbrt2}</strong></mark></p>`;
   }
   else if (valor1 != 0 && valor2 != 0){
     resultado = document.getElementById('saida6');
-    resultado.innerHTML = `<p>A raiz quadrada é <mark><strong>${cbrt3}</strong></mark></p>`;
+    resultado.innerHTML = `<p>A raiz cúbica é <mark><strong>${cbrt3}</strong></mark></p>`;
   }
   
 
